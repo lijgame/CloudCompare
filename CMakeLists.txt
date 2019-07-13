@@ -33,10 +33,10 @@ if( UNIX AND NOT APPLE )
 endif()
 
 # CCViewer
-OPTION( OPTION_BUILD_CCVIEWER "Check to compile CCViewer project" ON )
+OPTION( OPTION_BUILD_CCVIEWER "Check to compile CCViewer project" OFF )
 
 # Quad buffer stereo support
-OPTION( OPTION_GL_QUAD_BUFFER_SUPPORT "Check to compile CloudCompare and ccViewer with Quad Buffer support" OFF )
+OPTION( OPTION_GL_QUAD_BUFFER_SUPPORT "Check to compile CloudCompare and ccViewer with Quad Buffer support" ON )
 
 # Define target folders
 # (now that ccViewer can have its own plugins, qCC and ccViewer must fall in separate folders!

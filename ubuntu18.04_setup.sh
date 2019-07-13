@@ -1,0 +1,1 @@
+sudo apt-get install -y qt5-default  libqt5LinguistTools-dev qttools5-dev libqt5svg5-dev libtbb-dev
